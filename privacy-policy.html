@@ -35,7 +35,7 @@
     <img src="icon.png" alt="Rollywood icon">
     <div>
       <h1><span>Rollywood</span> Privacy Policy</h1>
-      <p class="meta">Effective date: October 25, 2026</p>
+      <p class="meta">Effective date: November 1, 2026</p>
     </div>
   </header>
 
@@ -43,8 +43,10 @@
     <h2>Overview</h2>
     <p>Rollywood (“the app”) is a mobile game for Android developed by Dương Hiếu (“we”, “us”).
       This policy explains what information is collected when you use the app, how it is used, and the choices you have.</p>
-    <p>In short: <strong>we do not ask you to create an account and we do not collect your name, email address, contacts, photos or precise location.</strong>
-      The app shows ads from Google AdMob, and Google collects some device data to deliver those ads, as described below.</p>
+    <p>In short: <strong>we do not ask you to create an account or a password, and we do not collect your email address, contacts, photos or precise location.</strong>
+      The app shows ads from Google AdMob, and Google collects some device data to deliver those ads, as described below.
+      If you choose to play an online 1v1 match, the game uses an anonymous identifier and a display name to run the match through Google Firebase,
+      as described in the “Online 1v1 matches” section.</p>
 
     <h2>Information stored only on your device</h2>
     <p>Your game progress — scores, your personal Top 5 leaderboard, coins, unlocked marble skins and settings — is saved
@@ -69,6 +71,22 @@
       <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use its services</a>.</p>
     <p>Watching a rewarded ad is always optional; it only gives an in-game reward (for example, continuing a run or extra coins).</p>
 
+    <h2>Online 1v1 matches (Firebase)</h2>
+    <p>Playing online is optional. If you play an online 1v1 match, the game connects to Firebase, a service provided by Google.
+      The game is connected to Firebase only while you are in the online mode. To run the match, the game sends:</p>
+    <table>
+      <tr><th>Data</th><th>Details</th><th>Used for</th></tr>
+      <tr><td>Anonymous identifier</td><td>Created by Firebase Authentication. No email, phone number or password is involved.</td><td>Running the match, preventing cheating</td></tr>
+      <tr><td>Display name</td><td>Your Google Play Games name if you are signed in to Play Games, otherwise a generated name such as “Player 1234”. Your opponent sees it.</td><td>Showing who you are playing against</td></tr>
+      <tr><td>Match activity</td><td>Your selected ball skin, the position of your ball during the match, your progress (holes sunk) and the course of the match (the layout of the board). Your opponent sees your ball and progress.</td><td>Running the match</td></tr>
+    </table>
+    <p>The data of a match is deleted from Firebase when the match ends, and rooms that are abandoned are deleted automatically.
+      The anonymous account identifier itself is kept by Firebase Authentication after a match, until it is deleted.
+      We do not sell this data and we do not use it for advertising. There is no chat and no free-text input in the online mode.
+      Firebase may process technical data such as your IP address to provide the service, as described in the
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and the
+      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase privacy information</a>. This data is encrypted in transit (TLS).</p>
+
     <h2>Your choices</h2>
     <ul>
       <li><strong>Advertising ID:</strong> you can reset or delete your advertising ID, or opt out of personalized ads, in your Android settings
@@ -76,19 +94,24 @@
       <li><strong>EEA, UK and Switzerland:</strong> on first launch we ask for your consent using Google's consent tool before personalized ads are shown.
         You can change your choice at any time with the <em>Privacy</em> option in the app's main menu.</li>
       <li><strong>Delete your game data:</strong> clear the app's storage or uninstall the app.</li>
+      <li><strong>Online play:</strong> online matches are optional; if you never open the online mode, no data is sent to Firebase.
+        To request deletion of data associated with your anonymous identifier, email us at
+        <a href="mailto:duonghieu4299@gmail.com">duonghieu4299@gmail.com</a>.</li>
     </ul>
 
     <h2>Sharing and selling</h2>
-    <p>We do not sell your personal information. Apart from the data collected by the Google Mobile Ads SDK and shared with Google as described above,
-      the app does not share any information with third parties.</p>
+    <p>We do not sell your personal information. Apart from the data collected by the Google Mobile Ads SDK and shared with Google, and the online match
+      data processed by Google Firebase on our behalf, as described above, the app does not share any information with third parties.
+      During an online match, your opponent sees your display name, your ball and your progress.</p>
 
     <h2>Children</h2>
     <p>The app is not directed to children under 13 (or the minimum age required in your country). We do not knowingly collect personal information
       from children. If you believe a child has provided personal information through the app, please contact us and we will take appropriate action.</p>
 
     <h2>Data retention and security</h2>
-    <p>We do not operate servers that store information about you. Data collected by Google is retained according to Google's policies.
-      We keep the app and its third-party components up to date to protect your information.</p>
+    <p>We do not operate our own servers. Online match data is stored in Google Firebase only while it is needed to run the match and is deleted
+      automatically afterwards; the anonymous identifier is kept by Firebase Authentication until it is deleted. Data collected by Google is retained
+      according to Google's policies. We keep the app and its third-party components up to date to protect your information.</p>
 
     <h2>Changes to this policy</h2>
     <p>We may update this policy from time to time. Changes are posted on this page with a new effective date.</p>
